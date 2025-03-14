@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-rows: 200px auto 1fr;
