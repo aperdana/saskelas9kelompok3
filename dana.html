@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Single-Level Nested Navigation</title>
+    <link rel="stylesheet" href="dana.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>My Website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a>
+                    <ul class="submenu">
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Services</a>
+                    <ul class="submenu">
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <aside class="sidebar left-sidebar">Sidebar 1</aside>
+            <section class="main-content">Main Content</section>
+            <aside class="sidebar right-sidebar">Sidebar 2</aside>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
